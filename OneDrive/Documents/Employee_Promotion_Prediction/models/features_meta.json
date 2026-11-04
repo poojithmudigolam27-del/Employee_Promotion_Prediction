@@ -1,0 +1,293 @@
+{
+  "total_rows": 100000,
+  "cat_columns": [
+    "gender",
+    "education_level",
+    "marital_status",
+    "city_tier",
+    "department",
+    "employment_type"
+  ],
+  "num_columns": [
+    "age",
+    "years_at_company",
+    "years_in_current_role",
+    "years_since_last_promotion",
+    "team_size",
+    "performance_score",
+    "performance_last_year",
+    "performance_two_years_ago",
+    "manager_rating",
+    "peer_feedback_score",
+    "projects_completed",
+    "kpi_achievement_percent",
+    "innovation_score",
+    "leadership_score",
+    "problem_solving_score",
+    "avg_monthly_hours",
+    "overtime_hours",
+    "tasks_completed",
+    "deadline_adherence_rate",
+    "meeting_hours_per_month",
+    "remote_work_ratio",
+    "training_hours_last_year",
+    "certifications_count",
+    "skill_assessment_score",
+    "cross_department_projects",
+    "mentoring_sessions",
+    "salary",
+    "salary_increase_percent",
+    "bonus_last_year",
+    "stock_options",
+    "attendance_rate",
+    "late_days",
+    "employee_engagement_score",
+    "job_satisfaction_score",
+    "internal_mobility_score"
+  ],
+  "cat_unique": {
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "education_level": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "marital_status": [
+      "Married",
+      "Single"
+    ],
+    "city_tier": [
+      "Tier1",
+      "Tier2",
+      "Tier3"
+    ],
+    "department": [
+      "Engineering",
+      "Finance",
+      "HR",
+      "Marketing",
+      "Operations",
+      "Sales",
+      "Support"
+    ],
+    "employment_type": [
+      "Contract",
+      "Full-time"
+    ]
+  },
+  "num_ranges": {
+    "age": {
+      "min": 22.0,
+      "max": 59.0,
+      "median": 41.0,
+      "is_int": true
+    },
+    "years_at_company": {
+      "min": 0.0,
+      "max": 30.0,
+      "median": 5.0,
+      "is_int": true
+    },
+    "years_in_current_role": {
+      "min": 0.0,
+      "max": 28.0,
+      "median": 2.0,
+      "is_int": true
+    },
+    "years_since_last_promotion": {
+      "min": 0.0,
+      "max": 29.0,
+      "median": 2.0,
+      "is_int": true
+    },
+    "team_size": {
+      "min": 3.0,
+      "max": 19.0,
+      "median": 11.0,
+      "is_int": true
+    },
+    "performance_score": {
+      "min": 40.0,
+      "max": 100.0,
+      "median": 69.98001263598064,
+      "is_int": false
+    },
+    "performance_last_year": {
+      "min": 40.0,
+      "max": 100.0,
+      "median": 68.03360529123881,
+      "is_int": false
+    },
+    "performance_two_years_ago": {
+      "min": 40.0,
+      "max": 100.0,
+      "median": 65.01884689592967,
+      "is_int": false
+    },
+    "manager_rating": {
+      "min": 1.0,
+      "max": 5.0,
+      "median": 3.3026633703272403,
+      "is_int": false
+    },
+    "peer_feedback_score": {
+      "min": 1.0,
+      "max": 5.0,
+      "median": 3.506368143286508,
+      "is_int": false
+    },
+    "projects_completed": {
+      "min": 0.0,
+      "max": 80.0,
+      "median": 5.0,
+      "is_int": true
+    },
+    "kpi_achievement_percent": {
+      "min": 30.0,
+      "max": 100.0,
+      "median": 70.07099336173768,
+      "is_int": false
+    },
+    "innovation_score": {
+      "min": 20.0,
+      "max": 100.0,
+      "median": 67.94812157507243,
+      "is_int": false
+    },
+    "leadership_score": {
+      "min": 10.0,
+      "max": 100.0,
+      "median": 58.19988778871289,
+      "is_int": false
+    },
+    "problem_solving_score": {
+      "min": 20.0,
+      "max": 100.0,
+      "median": 55.76442415401948,
+      "is_int": false
+    },
+    "avg_monthly_hours": {
+      "min": 86.21759518016867,
+      "max": 558.589657377004,
+      "median": 170.8064734695175,
+      "is_int": false
+    },
+    "overtime_hours": {
+      "min": 0.0,
+      "max": 57.59178279210586,
+      "median": 17.63541441355,
+      "is_int": false
+    },
+    "tasks_completed": {
+      "min": 5.0,
+      "max": 125.28018337388494,
+      "median": 34.29008096767767,
+      "is_int": false
+    },
+    "deadline_adherence_rate": {
+      "min": 0.4505685635362883,
+      "max": 1.0,
+      "median": 0.819367223348623,
+      "is_int": false
+    },
+    "meeting_hours_per_month": {
+      "min": 5.0,
+      "max": 70.24668681217074,
+      "median": 25.834554231865837,
+      "is_int": false
+    },
+    "remote_work_ratio": {
+      "min": 0.0006411819593925903,
+      "max": 0.9426115266281193,
+      "median": 0.2657195797131089,
+      "is_int": false
+    },
+    "training_hours_last_year": {
+      "min": 0.0,
+      "max": 322.9508829529243,
+      "median": 42.03893379969239,
+      "is_int": false
+    },
+    "certifications_count": {
+      "min": 0.0,
+      "max": 10.0,
+      "median": 2.0,
+      "is_int": true
+    },
+    "skill_assessment_score": {
+      "min": 20.0,
+      "max": 100.0,
+      "median": 67.94106925948871,
+      "is_int": false
+    },
+    "cross_department_projects": {
+      "min": 0.0,
+      "max": 10.0,
+      "median": 2.0,
+      "is_int": true
+    },
+    "mentoring_sessions": {
+      "min": 0.0,
+      "max": 13.0,
+      "median": 3.0,
+      "is_int": true
+    },
+    "salary": {
+      "min": 27616.72072213621,
+      "max": 663817.2789159127,
+      "median": 96923.47836241528,
+      "is_int": false
+    },
+    "salary_increase_percent": {
+      "min": 0.0,
+      "max": 15.996287549517863,
+      "median": 7.39960981160344,
+      "is_int": false
+    },
+    "bonus_last_year": {
+      "min": 1945.900011595896,
+      "max": 19615.45508225599,
+      "median": 10410.58288170065,
+      "is_int": false
+    },
+    "stock_options": {
+      "min": 788.9055869499912,
+      "max": 10846.763856502803,
+      "median": 5661.913481409732,
+      "is_int": false
+    },
+    "attendance_rate": {
+      "min": 0.7276310978044938,
+      "max": 1.0,
+      "median": 0.9302378744905189,
+      "is_int": false
+    },
+    "late_days": {
+      "min": 0.0,
+      "max": 12.0,
+      "median": 2.0,
+      "is_int": true
+    },
+    "employee_engagement_score": {
+      "min": 20.0,
+      "max": 100.0,
+      "median": 70.0250283790329,
+      "is_int": false
+    },
+    "job_satisfaction_score": {
+      "min": 20.0,
+      "max": 100.0,
+      "median": 68.0322337645474,
+      "is_int": false
+    },
+    "internal_mobility_score": {
+      "min": 0.0,
+      "max": 100.0,
+      "median": 50.04336950522354,
+      "is_int": false
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "model_type": "RandomForestClassifier",
+  "n_estimators": 100,
+  "max_depth": 16,
+  "class_weight": "balanced",
+  "total_samples": 100000,
+  "train_samples": 80000,
+  "test_samples": 20000,
+  "feature_count": 41,
+  "categorical_features": [
+    "gender",
+    "education_level",
+    "marital_status",
+    "city_tier",
+    "department",
+    "employment_type"
+  ],
+  "numeric_features": [
+    "age",
+    "years_at_company",
+    "years_in_current_role",
+    "years_since_last_promotion",
+    "team_size",
+    "performance_score",
+    "performance_last_year",
+    "performance_two_years_ago",
+    "manager_rating",
+    "peer_feedback_score",
+    "projects_completed",
+    "kpi_achievement_percent",
+    "innovation_score",
+    "leadership_score",
+    "problem_solving_score",
+    "avg_monthly_hours",
+    "overtime_hours",
+    "tasks_completed",
+    "deadline_adherence_rate",
+    "meeting_hours_per_month",
+    "remote_work_ratio",
+    "training_hours_last_year",
+    "certifications_count",
+    "skill_assessment_score",
+    "cross_department_projects",
+    "mentoring_sessions",
+    "salary",
+    "salary_increase_percent",
+    "bonus_last_year",
+    "stock_options",
+    "attendance_rate",
+    "late_days",
+    "employee_engagement_score",
+    "job_satisfaction_score",
+    "internal_mobility_score"
+  ],
+  "metrics": {
+    "accuracy": 0.88605,
+    "balanced_accuracy": 0.7582500000000001,
+    "roc_auc": 0.8873056388888889,
+    "macro_f1": 0.7238965829512585,
+    "promoted_precision": 0.4478114478114478,
+    "promoted_recall": 0.5985,
+    "promoted_f1": 0.5123047292959555,
+    "confusion_matrix": [
+      [
+        16524,
+        1476
+      ],
+      [
+        803,
+        1197
+      ]
+    ]
+  }
+}
